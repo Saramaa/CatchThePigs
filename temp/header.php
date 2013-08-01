@@ -4,7 +4,7 @@
 		<meta charset='utf-8' />
 		<title><?=isset($title) ? $title : 'Nine Examples'?></title>
 		<link rel="stylesheet/less" type="text/css" href="style.less">
-		<link rel="stylesheet/less" type="text/css" href="../mall/style.less">
+		<link rel="stylesheet/less" type="text/css" href="../temp/style.less">
 		<script src="../js/less.min.js"></script>
 		<script src="../js/modernizr.js"></script>
 		<script src="../js/jquery.form.js"></script> 

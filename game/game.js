@@ -7,7 +7,6 @@ canvas.height = 400;
 //document.body.appendChild(canvas);
 container.appendChild(canvas);
 
-
 // Background image
 var bgReady = false;
 var bgImage = new Image();
@@ -36,36 +35,16 @@ pigImage.src = "../img/pig.png";
 var farmer = {
 	speed: 256 // movement in pixels per second
 };
-var pig = {
-	speed: 200
-	//this.vx = Math.random()*20-10;
-	//this.vy = Math.random()*20-10;
-};
+var pig = {};
 var pigsCaught = 0;
 
-
-//Sounds
+//Soundeffects
 var pigSqeek = new Audio("../sound/pig.ogg");
 var yeehaw = new Audio("../sound/yeehaw.ogg");
 
-/*
-$('#toggleSound').click(function(){
-		if (bgMusic.paused) {
-		bgMusic.play();
-		toggle.innerHTML = "No background sound";
-		$(this).val('Play Background music');
-	}
-	else {
-		bgMusic.pause();
-		toggle.innerHTML = "Play background sound";
-		$(this).val('Stop Background music');
-	}
-});
-*/
 //Toggles the background sound
 function toggleSound(){
 	var bgMusic = document.getElementById("bgMusic");
-	
 	
 	if (bgMusic.paused) {
 		bgMusic.play();
@@ -89,9 +68,8 @@ addEventListener("keyup", function (e) {
 		delete keysDown[e.keyCode];
 }, false);
 
-// Reset the game when the player lost (click replay)
+// Reset the game when the player has won
 var reset = function () {
-	//document.getElementById('game-over').single.display = "none";
 	farmer.x = canvas.width / 2;
 	farmer.y = canvas.height / 2;
 
@@ -102,9 +80,7 @@ var reset = function () {
 	
 	pigsCaught = 0;
 	yeehaw.play();
-	
 };
-
 
 // Throw out another pig if a pig has been caught
 var resetPig = function () {
@@ -128,7 +104,6 @@ if (39 in keysDown) { // Player holding right
 	farmer.x += farmer.speed * modifier;
 }
 
-
 // Is the farmer and a pig touching?
 if (
 	farmer.x <= (pig.x + 32)
@@ -138,16 +113,7 @@ if (
 ) {
 	++pigsCaught;
 	resetPig();
-	
 }
-
-/**
-//Game over
-var gameOver = function() {
-	document.getElementById('game-over').single.display = "block";
-	yeehaw.pause();
-};
-*/
 
 var gameOver = function() {
 	$('div#gameOver').show();
@@ -155,17 +121,9 @@ var gameOver = function() {
 
 $('div#gameOver').click(function(){
 		$('div#gameOver').hide();
-		//yeehaw.play();
 		reset();
 });
 
-/**
-//World wrapper
-if (farmer.y < -5) {farmer.y = canvas.height+5;}
-if (farmer.y > canvas.height+5) {farmer.y = -5;}
-if (farmer.x < -5) {farmer.x = canvas.width+5;}
-if (farmer.x > canvas.width+5) {farmer.x = -5;}
-*/
 //Prevents movement outside of the canvas
 if (farmer.y < -5) {farmer.y = -5;}
 if (farmer.y > canvas.height-35) {farmer.y = canvas.height-35;}
@@ -173,11 +131,9 @@ if (farmer.x < -5) {farmer.x = -5;}
 if (farmer.x > canvas.width-30) {farmer.x = canvas.width-30;}
 
 if (pigsCaught == 10) {
-	//document.getElementById('game-over').style.display = "block";
 	gameOver();
 }
 	
-
 }; //end of update code
 
 // Draw everything
@@ -193,10 +149,6 @@ var render = function () {
 	if (pigReady) {
 		ctx.drawImage(pigImage, pig.x, pig.y);
 	}
-	
-	//The pigs velocity
-	//pig.x += pig.vx;
-	//pig.y += pig.vy;
 	
 	// Score
 	ctx.fillStyle = "rgb(250, 250, 250)";

@@ -49,8 +49,6 @@
 </footer>
 
 <script src="../js/jquery.js"></script>
-<script src="../js/validation/dist/jquery.validate.js"></script>
-<script src="../mall/krovvy.js"></script>
 <script src="main.js"></script>
 
 <!-- For Google Analytics, tracking use of testprograms on dbwebb.se. Do not include this in your own testprograms. -->
