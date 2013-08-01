@@ -3,8 +3,6 @@ CatchThePigs
 ***************************
 See the game in action: http://www.student.bth.se/~kapc12/javascript/CatchThePigs/game/index.php
 ***************************
-
-***************************
 Installation instrucations
 ***************************
 1. Clone this repo to a desired loaction on your machine
