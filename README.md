@@ -37,6 +37,8 @@ Functionality
 ***************************
 Configuration
 ***************************
+To configure parts of the game please follow the instructions below. Also note that the game can work without some of the files in the package and that you also can add new files completely - just keep track of the linking between the files when doing so.
+
 • Configure the game style: CatchThePigs/game/style.less
 
 •	Change the websites style: CatchThePigs/temp/style.less eller CatchThePigs/temp/base.less
