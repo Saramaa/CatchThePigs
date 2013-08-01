@@ -1,5 +1,6 @@
 CatchThePigs
 ============
+In this file are information about Installation instructions, Functionality, Configuration, and a short Analysis.
 ***************************
 See the game in action: http://www.student.bth.se/~kapc12/javascript/CatchThePigs/game/index.php
 ***************************
