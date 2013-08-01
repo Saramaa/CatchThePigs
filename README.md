@@ -1,6 +1,8 @@
 CatchThePigs
 ============
+***************************
 Installation instrucations
+***************************
 1. Clone this repo to a desired loaction on your machine
 
 2. Upload all the files to your server
@@ -9,22 +11,32 @@ Installation instrucations
 
 4. Change the files as you wish!
 
-
+***************************
 Configuration
+***************************
 • Configure the game style: CatchThePigs/game/style.less
-•	Change the websites style: CatchThePigs/temp/style.less eller CatchThePigs/temp/base.less.
+
+•	Change the websites style: CatchThePigs/temp/style.less eller CatchThePigs/temp/base.less
+
 •	To change the CatchThePigs-game code: CatchThePigs/game/game.js
+
 •	To edit the index file that contain the game: CatchThePigs/game/index.php
-•	In the folder CatchThePigs/js lies the rest of the JavaScript-files that control the websites functionality. When   adding new JS-files they also need to be included in CatchThePigs/temp/footer.php amongst the other JS scripts: 
+
+•	In the folder CatchThePigs/js lies the rest of the JavaScript-files that control the websites functionality. When adding new JS-files they also need to be included in CatchThePigs/temp/footer.php amongst the other JS scripts: 
+
 <script src="../js/jquery.js"></script>
+
 <script src="main.js"></script>
+
 <script src="../js/your_new_js_file.js"></script>
+
 
 •	In the folder ”sound” and ”img” you can continue to build up your sound and image libarary. 
 
 
-
+***************************
 Analysis
+***************************
 There are litteraly milions of games out there that are better than my game in functionality and entertainment,
 however my code offer several code examples of different functionality. 
 This game is far from complete but got great potential to show a thing or two to newbie HTML5 Canvas and JS coders.
