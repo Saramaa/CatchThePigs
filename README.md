@@ -14,6 +14,27 @@ Installation instrucations
 4. Change the files as you wish!
 
 ***************************
+Functionality
+***************************
+• Background sound
+
+•	Pause background sound 
+
+•	Soundeffects (when the pig regenerates and when the game start/restart) 
+
+•	Update a textfield displaying points at point of touch of an object (pig)
+
+•	Move the player objekt with the arrow keys
+
+•	Prevent the player and pig object from appearing or moving out of the game bounderies
+
+•	Load the game objects with images
+
+•	When a goal has been reached (ten pigs has been caught) a functionality get trigged (a Game Over-div appears above the game surface)
+
+•	A "restart" functionality that restarts the game when the user clicks a button (in this case the Game Over div)
+
+***************************
 Configuration
 ***************************
 • Configure the game style: CatchThePigs/game/style.less
