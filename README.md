@@ -50,12 +50,15 @@ To configure parts of the game please follow the instructions below. Also note t
 
 •	In the folder CatchThePigs/js lies the rest of the JavaScript-files that control the websites functionality. When adding new JS-files they also need to be included in CatchThePigs/temp/footer.php amongst the other JS scripts: 
 
+...
+
 <script src="../js/jquery.js"></script>
 
 <script src="main.js"></script>
 
 <script src="../js/your_new_js_file.js"></script>
 
+...
 
 •	In the folder ”sound” and ”img” you can continue to build up your sound and image libarary. 
 
