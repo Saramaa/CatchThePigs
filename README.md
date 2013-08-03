@@ -78,8 +78,9 @@ Most of this code is easy to understand and reuse thanks to accessory comments a
 
 HTML5 game tutorial – Make a snake game using HTML5 Canvas and jQuery
 http://thecodeplayer.com/walkthrough/html5-game-tutorial-make-a-snake-game-using-html5-canvas-jquery
+This game diviates a great deal from how the game that I described above works. The biggest noticable differences is how the Canvas is created and the use of arrays. A few of the functions available in this game is initializing variables and functions, automatization of player movement (to the right), create the snake (with an array), create the food (the dots the snake eats), and so on with painting all the game objects, check for collision between the snake and the food or the snake and any of the game walls, keyboard clicks controlling the snakes movmenet, and prevent the snake from reversing. 
 
-
+The code is well commented so that it is easy to follow and understand what all the parts is about. There is a walkthrough function that is playable, which types out all the code in a slow tempo. This game got some entertainmaint value, compared to the game described above as it is challangeing and there is a possibilty to loose.
 
 
 Not any of these "games" are entertaining (at least not for long) but they all have a great deal of good code solution to teach, that is easily applied on seperate projects.
