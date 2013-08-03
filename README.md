@@ -63,20 +63,23 @@ To configure parts of the game please follow the instructions below. Also note t
 ***************************
 Analysis
 ***************************
-There are litteraly milions of games out there that are better than my game in functionality and entertainment,
-however my code offer several code examples of different functionality. 
+There are literally milions of games out there that are better than my game in both functionality and entertainment,
+however my game offer several code examples of basic game functionality. 
 This game is far from complete but got great potential to show a thing or two to newbie HTML5 Canvas and JS coders.
 
 Here are some of the competition (some of whom I have learnt a great deal from):
 
 How to make a simple HTML 5 Canvas game
 http://www.lostdecadegames.com/how-to-make-a-simple-html5-canvas-game/
+This is the tutorial I borrowed most of my codes from in the creation of my game. I think this tutorial is good for beginners but the big downpart is that it got pretty few funcitonality and some of them seems pretty pointless. With that I mean: why would someone like to restart the player position after each catch of a monster? Wouldnt it be more logical if the position restarted only when the game restarted?
+However the flaws this game shows how to create a 2D canvas, include picutres, create game objects, player movement with keyboard, restart the game, update game objects (at player movement and player-monster touching), render the game, and finally start it. 
+
+Most of this code is easy to understand and reuse thanks to accessory comments and descriptions. 
 
 HTML5 game tutorial – Make a snake game using HTML5 Canvas and jQuery
 http://thecodeplayer.com/walkthrough/html5-game-tutorial-make-a-snake-game-using-html5-canvas-jquery
 
-Make a particle system in HTML 5 Canvas
-http://thecodeplayer.com/walkthrough/make-a-particle-system-in-html5-canvas
+
 
 
 Not any of these "games" are entertaining (at least not for long) but they all have a great deal of good code solution to teach, that is easily applied on seperate projects.
