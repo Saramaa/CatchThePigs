@@ -82,5 +82,5 @@ This game diviates a great deal from how the game that I described above works. 
 
 The code is well commented so that it is easy to follow and understand what all the parts is about. There is a walkthrough function that is playable, which types out all the code in a slow tempo. This game got some entertainmaint value, compared to the game described above as it is challangeing and there is a possibilty to loose.
 
-
-Not any of these "games" are entertaining (at least not for long) but they all have a great deal of good code solution to teach, that is easily applied on seperate projects.
+Comparision
+If you look at the two game tutorials described above non of them really are as meaningful nor entertaining as "real" games but both gives a simple version of code that is easy to understand, modify, and reuse. Compared to my game, it might not give just as much description as the first game but still got enough comments to give an easy understanding of what all the parts of the game is about. 
